@@ -24,11 +24,11 @@ A gui to plot CV and CA curve
   - 晨华电化学工作站的数据要保存为txt格式
 
 ### 3. 软件使用
-- 选择数据: 点击`Select Folder`或`Select File`可以选择文件夹或者文件, 选择文件夹会将文件夹中所有的数据进行处理, 选择文件则处理一个
+- 选择数据: 点击`Select Folder`或`Select File`可以选择文件夹或者文件, 选择文件夹会将文件夹中所有的数据进行处理, 选择文件则处理一个  
 ![软件界面](./pic/界面.jpg)
-- 设置选项: 点击`Show/Hide Options`可以打开选项, 可以选择电化学工作站类型`Workstation Type`, 支持科斯特`kst`和晨华`ch`, 可以选择数据处理类型`Plot Type`, 支持`cv`和`ca`曲线, 和一些其他设置
+- 设置选项: 点击`Show/Hide Options`可以打开选项, 可以选择电化学工作站类型`Workstation Type`, 支持科斯特`kst`和晨华`ch`, 可以选择数据处理类型`Plot Type`, 支持`cv`和`ca`曲线, 和一些其他设置  
 ![绘制选项](./pic/选项.jpg)
-- 执行: 选择好要处理的数据和数据处理的类型后点击`Execute Plotter`即可开始执行数据处理, 处理好的数据如下, 在当前文件夹下会生成处理好的名字与数据的名字相同的文件夹, 文件夹中有分割好的原始数据`raw_data`, 处理过的数据`normalized_data`和绘制好的图片`pic`
+- 执行: 选择好要处理的数据和数据处理的类型后点击`Execute Plotter`即可开始执行数据处理, 处理好的数据如下, 在当前文件夹下会生成处理好的名字与数据的名字相同的文件夹, 文件夹中有分割好的原始数据`raw_data`, 处理过的数据`normalized_data`和绘制好的图片`pic`   
 ![执行后](./pic/执行后.jpg)
 
 ## 已知的问题
